@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="rak.css">
+</head>
+<body>
+  <div class="switch-container">
+    <label class="switch">
+      <input type="checkbox" id="mode-toggle">
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  <div class="container">
+    <h2>Currency Container</h2>
+    <form id="currency-form">
+      <div class="amount">
+        <label for="a1">ENTER AMOUNT: </label><br>
+        <input type="number" id="a1" name="A">
+      </div>
+      <div class="dropdown">
+
+        <d iv class="from">
+          <p>FROM</p>
+          <div class="SC">
+            <img src="https://flagsapi.com/US/flat/64.png" class = "i1">
+            <select  name = "f1" >
+            </select>
+          </div>
+        </div>
+
+        <div class="to">
+          <p>TO</p>
+          <div class="SC">
+            <img src="https://flagsapi.com/IN/flat/64.png" class= "i2">
+            <select name = "t1">
+            </select>
+
+          </div>
+        </div>
+      <button>Get Rate</button>
+    </form>
+  </div>
+  <script src="rak.js"></script>
+</body>
+</html>

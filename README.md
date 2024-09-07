@@ -26,3 +26,5 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your-username/currency-converter.git
    cd currency-converter
+
+HOPE YOU FINDS ITS GOOD.
